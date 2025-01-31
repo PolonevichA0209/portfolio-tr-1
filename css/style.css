@@ -27,13 +27,33 @@ body {
   clip-path: inset(100%);
 }
 
+.btn {
+  border: none;
+  border-radius: 6px;
+  padding: 16px 32px;
+  color: var(--light-blue);
+  font-weight: 700;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 130%; /* 15.6px */
+  text-transform: uppercase;
+  background-color: var(--darck-orange);
+  filter: drop-shadow(0px 4px 0px #B68500);
+}
+
 /* 
 Social
 */
 
-.social-list{
+.social-list {
   display: flex;
+  align-items: center;
   gap: 16px;
+}
+
+.social-item {
+  width: 20px;
+  height: 20px;
 }
 
 /* 
@@ -42,10 +62,74 @@ Social
 
 .header {
   padding-top: 40px;
+  padding-bottom: 88px;
   background-color: var(--light-blue);
 }
 
 .header-flex-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.header-discord-link {
+  width: 100px;
+  height: 28px;
+}
+
+/* 
+Promo
+*/
+
+.promo {
+  padding-bottom: 88px;
+  background-color: var(--light-blue);
+}
+
+.promo-flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.promo-block-info {
+  max-width: 464px;
+  padding: 36.5px 0;
+}
+
+.promo-prof {
+  margin-bottom: 12px;
+  color: var(--darck-orange);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.promo-name {
+  margin-bottom: 24px;
+  color: #FFF;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px; /* 118% */
+}
+
+.promo-text {
+  margin-bottom: 36px;
+  color: #FFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px; /* 175% */
+}
+
+.promo-btn {
+  width: 300px;
+  height: 66px;
+}
+
+.promo-block-img {
+  width: 384px;
+  height: 384px;
+}
+
+.promo-img {
+  width: 100%;
 }
