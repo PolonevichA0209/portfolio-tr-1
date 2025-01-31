@@ -1,0 +1,51 @@
+:root {
+  --light-blue:  #1B2944;
+  --darck-blue:  #141F35;
+  --darck-orange: #FFBB01;
+  --darck-red: #EC1F46;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 944px;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  clip-path: inset(100%);
+}
+
+/* 
+Social
+*/
+
+.social-list{
+  display: flex;
+  gap: 16px;
+}
+
+/* 
+  Header
+*/
+
+.header {
+  padding-top: 40px;
+  background-color: var(--light-blue);
+}
+
+.header-flex-container {
+  display: flex;
+  justify-content: space-between;
+}
