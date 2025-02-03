@@ -133,3 +133,36 @@ Promo
 .promo-img {
   width: 100%;
 }
+/* 
+Advantages
+*/
+
+.advantages {
+  padding: 88px 0;
+  background-color: var(--darck-blue);
+}
+
+.advantages-title {
+  margin-bottom: 48px;
+  color: #FFF;
+  font-size: 36px;
+  line-height: 42px; /* 116.667% */
+}
+
+.advantages-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px 16px;
+}
+
+.advantages-list-title {
+  margin-bottom: 16px;
+  color: #FFF;
+  font-size: 24px;
+  line-height: 28px; /* 116.667% */
+}
+
+.advantages-list-text {
+  color: #FFF;
+  line-height: 28px; /* 175% */
+}
