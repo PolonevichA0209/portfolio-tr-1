@@ -286,6 +286,11 @@ Contacts
   background-color: var(--light-blue);
 }
 
+.contacts-block {
+  display: flex;
+  justify-content: space-between;
+}
+
 .contacts-title {
   margin-bottom: 47px;
   color: #FFF;
@@ -328,4 +333,23 @@ Contacts
 .form-btn {
   width: 100%;
   min-height: 66px;
+}
+
+.contacts-form-title {
+  margin-bottom: 32px;
+  color: #000;
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 28px; /* 155.556% */
+  text-align: center;
+  Font-size: 18px;
+}
+
+.block-title {
+  display: block;
+  color: #FFF;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px; /* 116.667% */
 }
